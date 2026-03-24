@@ -3,7 +3,7 @@
   "documentName": "Ward Diaries",
   "iiifManifest": "/wardtest/wardtest/iiif/manifest.json",
   "transcriptionTypes": {
-    "transcription": "Transcription"
+    "text": "Transcription"
   },
   "viewerUrl": "/wardtest"
 }
