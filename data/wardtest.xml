@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+          <fileDesc>
+              <titleStmt>
+                  <title>
+                      <!-- Your Title Here -->
+                  </title>
+              </titleStmt>
+              <publicationStmt>
+                  <p></p>
+              </publicationStmt>
+              <sourceDesc>
+                  <p></p>
+              </sourceDesc>
+          </fileDesc>
+      </teiHeader>
+
+      <facsimile sameAs="https://digitalcollections.folger.edu/node/214787/manifest-single">
+                    <surface xml:id="f000" ulx="0" uly="0" lrx="5378" lry="4073" sameAs="https://digitalcollections.folger.edu/node/214787/canvas/914209" ><label>219830</label><graphic mimeType="application/json" url="https://digitalcollections.folger.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalcollections.folger.edu%2F_flysystem%2Ffedora%2F2024-09%2F219830.jpg"/></surface>
+
+      </facsimile>
+
+      <text xml:id="text">
+<body><div>
+    <pb facs="#f000" />
+<ab>
+<lb />In Tamworth Dr. Wagstaffe1
+<lb />saies euery other child is borne
+<lb />allmost with a hernia inquire
+<lb />further into this matter:
+<lb />whether the red sand which is vsualy
+<lb />excernd in persons with their vrine
+<lb />which is generaly supposd to proceed
+<lb />from the stone bee any thing but the
+<lb />fixt salt calcined by the heat of the
+<lb />bodie see Dr. willis of vrines:2
+<lb />There was euen in Rome itt
+<lb />self in Cyprians time a number
+<lb />of the Clergie who acted with the
+<lb />Bishop as wel as elswhere
+<lb />whence probably grew the con=
+<lb />claue of Cardinals:
+<lb />and from the same Original here in
+<lb />England, first Monks afterwards Deans
+<lb />and Chapters were joined with Bish=
+<lb />ops to assist both in Ordination and
+<lb />Iurisdiction:
+<lb />Dr. Dolbine does most blustringly
+<lb />assert that the world is made for
+<lb />the bold; hee might more pro=
+<lb />perly haue said for the Impu=
+<lb />dent that is such as himself:3
+<lb />Shakespear had but 2 daughters one
+</ab>
+
+  </div></body>
+      </text>
+  </TEI>
