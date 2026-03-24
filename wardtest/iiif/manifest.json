@@ -1,0 +1,97 @@
+{
+	"@context": [
+		"http://www.w3.org/ns/anno.jsonld",
+		"http://iiif.io/api/presentation/3/context.json"
+	],
+	"id": "https://buchanana01.github.io/wardtest//wardtest/iiif/manifest.json",
+	"type": "Manifest",
+	"items": [
+		{
+			"id": "https://buchanana01.github.io/wardtest//wardtest/iiif/canvas/f000",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://buchanana01.github.io/wardtest//wardtest/iiif/canvas/f000/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://buchanana01.github.io/wardtest//wardtest/iiif/canvas/f000/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://digitalcollections.folger.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalcollections.folger.edu%2F_flysystem%2Ffedora%2F2024-09%2F219830.jpg",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 4073,
+								"width": 5378,
+								"service": [
+									{
+										"id": "https://digitalcollections.folger.edu/cantaloupe/iiif/2/https%3A%2F%2Fdigitalcollections.folger.edu%2F_flysystem%2Ffedora%2F2024-09%2F219830.jpg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://buchanana01.github.io/wardtest//wardtest/iiif/canvas/f000"
+						}
+					]
+				}
+			],
+			"height": 4073,
+			"width": 5378,
+			"label": {
+				"none": [
+					"219830"
+				]
+			},
+			"annotations": [
+				{
+					"id": "https://buchanana01.github.io/wardtest//wardtest/iiif/canvas/f000/annotationPage/1",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://buchanana01.github.io/wardtest//wardtest/iiif/canvas/f000/annotationPage/1/annotation/0",
+							"type": "Annotation",
+							"motivation": "supplementing",
+							"body": {
+								"id": "https://buchanana01.github.io/wardtest//wardtest/tei/text/f000.xml",
+								"format": "text/xml",
+								"type": "TextPartial",
+								"profile": "https://github.com/cu-mkp/editioncrafter-project/text-partial-resource.md"
+							},
+							"target": "https://buchanana01.github.io/wardtest//wardtest/iiif/canvas/f000"
+						},
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://buchanana01.github.io/wardtest//wardtest/iiif/canvas/f000/annotationPage/1/annotation/1",
+							"type": "Annotation",
+							"motivation": "supplementing",
+							"body": {
+								"id": "https://buchanana01.github.io/wardtest//wardtest/html/text/f000.html",
+								"format": "text/html",
+								"type": "TextPartial",
+								"profile": "https://github.com/cu-mkp/editioncrafter-project/text-partial-resource.md"
+							},
+							"target": "https://buchanana01.github.io/wardtest//wardtest/iiif/canvas/f000"
+						}
+					]
+				}
+			]
+		}
+	],
+	"label": {
+		"en": [
+			"wardtest"
+		]
+	},
+	"seeAlso": [
+		{
+			"id": "https://cu-mkp.github.io/editioncrafter-data/fr640_3r-3v-example/glossary.json",
+			"type": "Dataset",
+			"label": "Glossary",
+			"format": "text/json"
+		}
+	]
+}
